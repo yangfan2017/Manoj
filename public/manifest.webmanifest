@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Gorkha Buddhist Tsokpa – Saruwa Management",
+  "short_name": "GBT Saruwa",
+  "description": "Community Saruwa contribution management system for Gorkha Buddhist Tsokpa committee.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1c1917",
+  "theme_color": "#1c1917",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

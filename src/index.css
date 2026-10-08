@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Ensure all user typed text in inputs, textareas, and selects is strictly black */
+  input,
+  textarea,
+  select {
+    color: #000000 !important;
+  }
+}
+
+/* Custom print styling for Saruwa receipts and reports */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-only {
+    display: block !important;
+  }
+
+  .print-container {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 1cm;
+    size: auto;
+  }
+}

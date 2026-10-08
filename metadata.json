@@ -1,0 +1,6 @@
+{
+  "name": "Gorkha Buddhist Tsokpa – Saruwa Management",
+  "description": "Community Saruwa contribution management system for the Gorkha Buddhist Tsokpa committee.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
